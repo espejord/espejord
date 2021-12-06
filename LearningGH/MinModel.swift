@@ -10,6 +10,6 @@ import Foundation
 
 struct MinModel  {
     
-    var name = String?
+    var name: String = "Kjell"
     
 }
