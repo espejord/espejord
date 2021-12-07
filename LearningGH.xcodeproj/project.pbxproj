@@ -54,7 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				5F0D2FBC275E654A00C09FEE /* LearningGHApp.swift */,
-				5F0D2FBE275E654A00C09FEE /* ContentView.swift */,
+				5F0E6E61275F3B2F007F3931 /* Views */,
+				5F0E6E63275F3B86007F3931 /* ViewModel */,
+				5F0E6E62275F3B70007F3931 /* Models */,
+				5F0E6E64275F3BB6007F3931 /* Data */,
 				5F0D2FC0275E654F00C09FEE /* Assets.xcassets */,
 				5F0D2FC2275E654F00C09FEE /* Preview Content */,
 				5F0D2FCA275E6BFC00C09FEE /* MinModel.swift */,
@@ -68,6 +71,35 @@
 				5F0D2FC3275E654F00C09FEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F0E6E61275F3B2F007F3931 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F0D2FBE275E654A00C09FEE /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F0E6E62275F3B70007F3931 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F0E6E63275F3B86007F3931 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5F0E6E64275F3BB6007F3931 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
