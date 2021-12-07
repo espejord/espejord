@@ -12,6 +12,7 @@
 		5F0D2FC1275E654F00C09FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D2FC0275E654F00C09FEE /* Assets.xcassets */; };
 		5F0D2FC4275E654F00C09FEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D2FC3275E654F00C09FEE /* Preview Assets.xcassets */; };
 		5F0D2FCB275E6BFC00C09FEE /* MinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D2FCA275E6BFC00C09FEE /* MinModel.swift */; };
+		5FF53119275FB0A20020DFC5 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF53118275FB0A20020DFC5 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5F0D2FC0275E654F00C09FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0D2FC3275E654F00C09FEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F0D2FCA275E6BFC00C09FEE /* MinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinModel.swift; sourceTree = "<group>"; };
+		5FF53118275FB0A20020DFC5 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				5F0D2FBE275E654A00C09FEE /* ContentView.swift */,
+				5FF53118275FB0A20020DFC5 /* TabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				5F0D2FBF275E654A00C09FEE /* ContentView.swift in Sources */,
 				5F0D2FBD275E654A00C09FEE /* LearningGHApp.swift in Sources */,
+				5FF53119275FB0A20020DFC5 /* TabView.swift in Sources */,
 				5F0D2FCB275E6BFC00C09FEE /* MinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
