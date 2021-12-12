@@ -8,9 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var array = ["Bank", "Aviser", "Telefon","Medisiner", "Nødtelefon"]
     var body: some View {
-        Text("Hei, hele kloden!")
-            .padding()
+        
+        NavigationView  {
+            List (array, id: \.self)  { arrayElement in
+                NavigationLink(
+                    destination: Text("her"),
+                
+            label: {
+                
+                Text(arrayElement)
+                
+            })
+                
+                
+                
+            }.navigationBarTitle(Text("VALG"))
+            
+            
+        }
+        
+        
+        
     }
 }
 

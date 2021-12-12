@@ -12,15 +12,22 @@ struct MinTabView: View {
         
         TabView  {
             
-            Text("Featured View")
+            VStack  {
+                
+               Image ("calm")
+                    .resizable()
+                    .padding(/*@START_MENU_TOKEN@*/.all, 40.0/*@END_MENU_TOKEN@*/)
+            
+                
+            }
+            
                 .tabItem   {
                     VStack   {
                     Image(systemName: "star.fill")
                     Text("Featured")
-               
-                
-                
+                  
                 }
+                    Spacer()
             }
             ContentView()
                 .tabItem  {
