@@ -8,35 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = RecipeModel()
     
-    var array = ["Bank", "Aviser", "Telefon","Medisiner", "Nødtelefon"]
     var body: some View {
         
-        NavigationView  {
-            List (array, id: \.self)  { arrayElement in
-                NavigationLink(
-                    destination: Text("her"),
+        List(model.recipes)  { r in
+            
+            HStack  {
+                Image(r.image)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 50, height: 50, alignment: .leading)
+                    .clipped()
+                    .cornerRadius(5)
+                Text(r.name)
                 
-            label: {
                 
-                Text(arrayElement)
-                
-            })
-                
-                
-                
-            }.navigationBarTitle(Text("VALG"))
+            }
+            
+            
+        }
+       
+        
             
             
         }
         
-        
-        
-    }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+    
+    
+
