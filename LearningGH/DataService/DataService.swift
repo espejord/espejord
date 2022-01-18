@@ -12,14 +12,15 @@ class DataService {
     static func getLocalData()  -> [Recipe]  {
         
         
-        let pathString = Bundle.main.path(forResource: "Data", ofType: "json")
-        if let path = pathString  {
-            let url = URL(fileURLWithPath: path)
+        let pathString = Bundle.main.path(forResource: "data", ofType: "json")
+        guard pathString != nil else   {
+            return [Recipe]()
+        }
+            let url = URL(fileURLWithPath: pathString!)
             
             do  {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
-            
             
             // parse data
            
@@ -40,14 +41,9 @@ class DataService {
                 print(error)
             }
         
-        
-        
+       
+        return [Recipe]()
     }
     
-    
-    
-        return [Recipe]()
-    
-    
 }
-}
+

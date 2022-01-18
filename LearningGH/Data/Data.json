@@ -1,38 +1,71 @@
 [
-    
+
     {
-       "name": "Bank",
-       "image": "Banker"
-        
-        
+        "name": "Banker",
+        "featured": false,
+        "image": "Banker",
+        "ingredients": [
+            "  Hvilken bank bruker du?",
+            "  Skriv inn navnet på Banken her:",
+            "  Trykk på linken for banken din"
+
+         
+        ]
     },
     {
-    "name": "Aviser",
-    "image": "Aviser"
-    
-    
+        "name": "Aviser",
+        "featured": false,
+        "image": "Aviser",
+        "ingredients": [
+            "  Finn ut hvilke aviser du ønsker",
+            "  Skriv inn navnet på avisen her:",
+            "  Trykk på linken for å hente avisen",
+
+            "  www.vg.no"
+        ]
+
+
     },
-    
+
     {
-    "name": "Telefon",
-    "image": "telefon"
-    
-    
+        "name": "telefon",
+        "featured": false,
+        "image": "telefon",
+        "ingredients": [
+            "   sett inn dine telefon kontakter:  ",
+            "   Finn på din telefonliste hvem du vil ringe til: ",
+            "   Trykk på RING"  ,
+
+            "     Gå tilbake for nødtelefon.  "
+        ]
+
     },
     {
-    "name": "Medisiner",
-    "image": "Medisin"
-    
-    
+        "name": "Medisiner",
+        "featured": false,
+        "image": "Medisin",
+        "ingredients": [
+            "  Hvilke medisiner bruker du? ",
+            "  Skriv inn navnet på medisinene her:",
+            "  Trykk på linken for dosering.",
+
+            "    Snakk med legen "
+        ]
     },
-    
+
     {
-    "name": "Nødtelefon",
-    "image": "Nødtelefon"
-    
-    
+        "name": "Nødtelefon",
+        "featured": false,
+        "image": "Nødtelefon",
+        "ingredients": [
+            "  Ring Ambulanse/Sykebil: 113.",
+            "  Ring Politi: 112.",
+            "  Ring Brannvesen: 110.",
+            "  GIFTINFORMASJON: 22 59 13 00 "
+
+          
+        ]
+
     }
-    
+
 ]
- 
- 
