@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationView {
             ScrollView  {
                 
-                LazyVStack {
+                LazyVStack (alignment: .leading) {
                     ForEach(model.recipes)  { r in
                     NavigationLink(
                         destination: RecipeDetailView(recipe:r),
@@ -28,6 +28,7 @@ struct ContentView: View {
                             .clipped()
                             .cornerRadius(5)
                         Text(r.name)
+                            .foregroundColor(.black)
                         
                     
                     }
@@ -36,6 +37,7 @@ struct ContentView: View {
                         })
                     }
                 }
+                .padding()
             }
             .navigationBarTitle("Hjelpe App")
         
