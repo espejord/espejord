@@ -10,6 +10,7 @@ import SwiftUI
 struct RecipeDetailView: View {
     
     var recipe:Recipe
+    @State var valgtPicker = 2
     var body: some View {
         
         ScrollView   {
@@ -19,19 +20,32 @@ struct RecipeDetailView: View {
                 .padding(.horizontal)
                 .scaledToFill()
                 .clipped()
-            
+                
+                
             
             VStack (alignment: .leading)   {
                 
-               
+                
                 
                 ForEach (recipe.ingredients, id: \.self)  { item in
                     Text(item)
                         .font(.caption)
                         .padding([.top, .leading, .bottom], 2.0)
                     
+                    
+                        
+                    }
+                
+                Picker("", selection: $valgtPicker)  {
+                    Text("1").tag(1)
+                    Text("2").tag(2)
+                    Text("3").tag(3)
+                    
             }
+                .pickerStyle(SegmentedPickerStyle())
+                .frame(width:160)
             }
+            .padding()
     }
 }
     }

@@ -39,7 +39,7 @@ struct ContentView: View {
                 }
                 .padding()
             }
-            .navigationBarTitle("Hjelpe App")
+            .navigationBarTitle("Din Hjelpe App")
         
             
             
