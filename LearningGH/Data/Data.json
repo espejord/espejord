@@ -5,23 +5,23 @@
         "featured": false,
         "image": "Banker",
         "ingredients": [
-            "  Hvilken bank bruker du?",
-            "  Skriv inn navnet på Banken her:",
-            "  Trykk på linken for banken din"
-
-         
+            "  1 Velg Bank",
+            "  2 Betale regning",
+            "  3 Kontakt banken din"
+            
         ]
+        
     },
     {
         "name": "Aviser",
         "featured": false,
         "image": "Aviser",
         "ingredients": [
-            "  Finn ut hvilke aviser du ønsker",
-            "  Skriv inn navnet på avisen her:",
-            "  Trykk på linken for å hente avisen",
+            "  1 Velg aviser",
+            "  2 Din faste avis",
+            "  3 Dagens nyheter"
 
-            "  www.vg.no"
+          
         ]
 
 
@@ -32,11 +32,11 @@
         "featured": false,
         "image": "telefon",
         "ingredients": [
-            "   sett inn dine telefon kontakter:  ",
-            "   Finn på din telefonliste hvem du vil ringe til: ",
-            "   Trykk på RING"  ,
+            "   1. Ringe fra kontaktliste:  ",
+            "   2. Slå nummer manuelt: ",
+            "   3.  RING"  
 
-            "     Gå tilbake for nødtelefon.  "
+            
         ]
 
     },
@@ -45,11 +45,11 @@
         "featured": false,
         "image": "Medisin",
         "ingredients": [
-            "  Hvilke medisiner bruker du? ",
-            "  Skriv inn navnet på medisinene her:",
-            "  Trykk på linken for dosering.",
+            "  1 Hvilke medisiner bruker du? ",
+            "  2 Skriv inn navnet på medisinene her:",
+            "  3 Dosering."
 
-            "    Snakk med legen "
+            
         ]
     },
 
@@ -58,9 +58,9 @@
         "featured": false,
         "image": "Nødtelefon",
         "ingredients": [
-            "  Ring Ambulanse/Sykebil: 113.",
-            "  Ring Politi: 112.",
-            "  Ring Brannvesen: 110.",
+            "  1 Ambulanse/Sykebil: 113.",
+            "  2 Politi: 112.",
+            "  3 Brannvesen: 110.",
             "  GIFTINFORMASJON: 22 59 13 00 "
 
           

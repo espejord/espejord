@@ -22,6 +22,7 @@ struct MinTabView: View {
                         .resizable()
                         .foregroundColor(Color.blue)
                         .padding(/*@START_MENU_TOKEN@*/.all, 43.0/*@END_MENU_TOKEN@*/)
+                      
                    
                     VStack {
                         Text("VELG DET DU SKAL GJØRE")
@@ -37,8 +38,7 @@ struct MinTabView: View {
                             .foregroundColor(Color.white)
                     }
                 }
-                .padding(.bottom)
-                
+            
                 .tabItem  {
                     VStack  {
                       
@@ -55,20 +55,20 @@ struct MinTabView: View {
                                 VStack   {
                                     Image(systemName: "list.bullet")
                                     Text("VELG HER")
+                                        .foregroundColor(.black)
                                     
                                     
                                 }
                                 
                             }
-                        
-                       
-                
                     
-            }
+                    }
+                    .padding(7.0)
                 
                
                 
                 }
+              
            
                 }
             

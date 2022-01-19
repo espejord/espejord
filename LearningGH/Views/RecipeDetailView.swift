@@ -10,6 +10,7 @@ import SwiftUI
 struct RecipeDetailView: View {
     
     var recipe:Recipe
+    
     @State var valgtPicker = 2
     var body: some View {
         
@@ -27,14 +28,14 @@ struct RecipeDetailView: View {
                 
                 
                 
-                ForEach (recipe.ingredients, id: \.self)  { item in
-                    Text(item)
-                        .font(.caption)
-                        .padding([.top, .leading, .bottom], 2.0)
-                    
+    //            ForEach (recipe.ingredients, id: \.self)  { item in
+     //               Text(item)
+     //                   .font(.caption)
+     //                   .padding([.top, .leading, .bottom], 2.0)
+      //
                     
                         
-                    }
+      //              }
                 
                 Picker("", selection: $valgtPicker)  {
                     Text("1").tag(1)
@@ -46,6 +47,21 @@ struct RecipeDetailView: View {
                 .frame(width:160)
             }
             .padding()
+                VStack(alignment: .leading) {
+                    Text("Dine Valg: ")
+                  
+                        
+                        ForEach (recipe.ingredients, id: \.self)  { item in
+                                      Text(item)
+                                          .font(.caption)
+                                       .padding([.top, .leading, .bottom], 2.0)
+                        
+                    }
+                    
+                    
+                    
+                    
+                }
     }
 }
     }
@@ -57,3 +73,4 @@ let model = RecipeModel()
     }
 }
 }
+
