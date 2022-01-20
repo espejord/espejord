@@ -17,6 +17,7 @@
 		5F2B907C27660E58009E623D /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B907B27660E58009E623D /* RecipeModel.swift */; };
 		5F2B907F27662C85009E623D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B907E27662C85009E623D /* DataService.swift */; };
 		5F2B9082276737A0009E623D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B9081276737A0009E623D /* RecipeDetailView.swift */; };
+		5F7ACB40279947B50019B128 /* Metoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7ACB3F279947B50019B128 /* Metoder.swift */; };
 		5FF53119275FB0A20020DFC5 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF53118275FB0A20020DFC5 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		5F2B907B27660E58009E623D /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		5F2B907E27662C85009E623D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		5F2B9081276737A0009E623D /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		5F7ACB3F279947B50019B128 /* Metoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metoder.swift; sourceTree = "<group>"; };
 		5FF53118275FB0A20020DFC5 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				5F2B907B27660E58009E623D /* RecipeModel.swift */,
+				5F7ACB3F279947B50019B128 /* Metoder.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				5FF53119275FB0A20020DFC5 /* TabView.swift in Sources */,
 				5F0D2FCB275E6BFC00C09FEE /* MinModel.swift in Sources */,
 				5F2B907A27660D33009E623D /* Recipe.swift in Sources */,
+				5F7ACB40279947B50019B128 /* Metoder.swift in Sources */,
 				5F2B907C27660E58009E623D /* RecipeModel.swift in Sources */,
 				5F2B9082276737A0009E623D /* RecipeDetailView.swift in Sources */,
 			);
